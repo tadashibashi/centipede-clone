@@ -92,8 +92,8 @@ instance_create(x-4,y,mushroom_eater_obj)
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>change = 1
-regular_move = 1
+            <string>change = 1;
+regular_move = 1;
 </string>
           </argument>
         </arguments>

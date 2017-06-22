@@ -80,6 +80,27 @@
     <script>scripts\destroy_enemies_script.gml</script>
     <script>scripts\destroy_script.gml</script>
     <script>scripts\level_text_color_script.gml</script>
+    <scripts name="global_game_obj_scripts">
+      <script>scripts\create_invis_mushroom_obj_script.gml</script>
+      <script>scripts\ggo_create_init_var.gml</script>
+      <script>scripts\ggo_create_instances_script.gml</script>
+      <script>scripts\ggo_draw_all_times_script.gml</script>
+      <script>scripts\ggo_draw_demo_script.gml</script>
+      <script>scripts\ggo_draw_end_game_script.gml</script>
+      <script>scripts\ggo_draw_pause_script.gml</script>
+      <script>scripts\ggo_escape_script.gml</script>
+      <script>scripts\ggo_step_enemy_spawn_script.gml</script>
+      <script>scripts\ggo_step_extra_life_script.gml</script>
+      <script>scripts\ggo_step_game_mode_script.gml</script>
+      <script>scripts\ggo_step_start_game_script.gml</script>
+      <script>scripts\ggo_step_sound_controller_script.gml</script>
+    </scripts>
+    <script>scripts\ship_step_movement_script.gml</script>
+    <script>scripts\ship_step_fire_script.gml</script>
+    <script>scripts\ship_coll_enemy_parent_script.gml</script>
+    <script>scripts\cent_step_move_script.gml</script>
+    <script>scripts\cent_step_counters_script.gml</script>
+    <script>scripts\cent_step_all_stop_script.gml</script>
   </scripts>
   <fonts name="fonts">
     <font>fonts\font_main</font>
@@ -92,16 +113,12 @@
     <object>objects\player_die_obj</object>
     <object>objects\mushroom_obj</object>
     <object>objects\super_mushroom_obj</object>
-    <object>objects\power_up_obj</object>
     <objects name="enemies">
       <object>objects\enemy_parent</object>
-      <object>objects\grasshopper_obj</object>
-      <object>objects\cricket_obj</object>
       <object>objects\centipede_obj</object>
       <object>objects\gecko_obj</object>
       <object>objects\bug_obj</object>
       <object>objects\spider_obj</object>
-      <object>objects\object39</object>
       <object>objects\mushroom_eater_obj</object>
     </objects>
     <objects name="mushroom_reparations">

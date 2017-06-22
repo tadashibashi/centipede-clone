@@ -27,12 +27,15 @@
             <kind>1</kind>
             <string>anim = 0;
 
-if instance_exists(ship_obj) {
-     if ship_obj.invincible = true then {anim_speed = random(1.75)+.25; exit;
+if (instance_exists(ship_obj)) {
+     if (ship_obj.invincible == true) {
+        anim_speed = random(1.75)+.25; exit;
      } else {anim_speed = 2};
 } else {anim_speed = 2};
 
-if global.demo = false then {sound_play(enemy_die_snd);}
+if (!global.demo) {
+    sound_play(enemy_die_snd);
+}
 
 
 image_index = (global.level-1)*6 + anim;
@@ -60,7 +63,11 @@ image_index = (global.level-1)*6 + anim;
             <kind>1</kind>
             <string>
 anim += anim_speed;
-if (anim &gt; 6) then instance_destroy();
+
+if (anim &gt; 6) { 
+    instance_destroy();
+}
+
 image_index = (global.level-1)*6 + anim;
 </string>
           </argument>

@@ -26,14 +26,14 @@
           <argument>
             <kind>1</kind>
             <string>//Start UP Variables/////////////////////////////////////////////////
-super_mushroom = false //starts out as a regular mushroom not super.
-super_mushroom_create = 0 //set image
-image_speed = 0 //keep image still
-depth = -y
-life = 4 //mushroom hit-points set at 4
-s = 0
-exist_counter = 0 //keeps mushrooms from overlapping by age detection
-q = 0 //power up chance
+super_mushroom = false; //starts out as a regular mushroom not super.
+super_mushroom_create = 0; //set image
+image_speed = 0; //keep image still
+depth = -y;
+life = 4; //mushroom hit-points set at 4
+s = 0;
+exist_counter = 0; //keeps mushrooms from overlapping by age detection
+q = 0; //power up chance
 //Snap to Grid///////////////////////////////////////////////// ///
 move_snap(8,8);
 
@@ -62,9 +62,9 @@ move_snap(8,8);
           <argument>
             <kind>1</kind>
             <string>//MAP PLACEMENT AND IMAGE PARAMETERS///////////////////////////
-move_snap(8,8) //snaps the mushroom to the grid at all times
+move_snap(8,8); //snaps the mushroom to the grid at all times
 if (y &gt;= 240) then {instance_destroy();} //destroys any mushroom in bottom row
-image_index = (global.level-1)*4 + (4 - life) //formula corrects to the right image
+image_index = (global.level-1)*4 + (4 - life); //formula corrects to the right image
 
 
 //EXISTENCE VARIABLE//////////////////////////////////////////
@@ -73,7 +73,9 @@ image_index = (global.level-1)*4 + (4 - life) //formula corrects to the right im
 //If they overlap with mushrooms that already exist
 //(exists counter would be 2 by then) then the new one gets destroyed
 //Check the Collision with mushroom_obj event for the code.
-if exist_counter &lt; 2 then exist_counter += 1
+if (exist_counter &lt; 2) {
+    exist_counter += 1;
+}
 
 
 ///////////SUPER MUSHROOM STATUS//////////////////////////////////////
@@ -82,7 +84,7 @@ if exist_counter &lt; 2 then exist_counter += 1
 //player gaining infinite points during mushroom regeneration after the player dies
 if (collision_rectangle(x+2,y+2,x+6,y+6,gecko_obj,true,false)) {
 if (super_mushroom = false) &amp;&amp; (global.game_mode != 3) {
-   super_mushroom = true
+   super_mushroom = true;
 }
 }
 
@@ -90,12 +92,12 @@ if (super_mushroom = false) &amp;&amp; (global.game_mode != 3) {
 //There is another object attached to the mushroom to allow for the centipede
 //to detect it. The variable super_mushroom_create detects if the player should
 //create a super_mushroom_obj on top of it. 0 means can create; 1 means cannot;
-if (super_mushroom = true) &amp;&amp; (super_mushroom_create = 0) {
+if (super_mushroom) &amp;&amp; (super_mushroom_create == 0) {
      super_mushroom_create = 1;
-     instance_create(x,y,super_mushroom_obj)
+     instance_create(x,y,super_mushroom_obj);
 }
 
-if (super_mushroom_create = 1) &amp;&amp;
+if (super_mushroom_create == 1) &amp;&amp;
 (!collision_point(x,y,super_mushroom_obj,true,false)) {
    super_mushroom_create = 0;
 }
@@ -110,21 +112,21 @@ if (life &lt; 1) { //if hit-points become depleted
     global_game_obj.bug_drop += 1; //variable increases chances the higher it is
     global_game_obj.bug_chance = true; //gives the fglobal_game_obj a chance to create flea
   }
-  if (super_mushroom = true) &amp;&amp; global.mushroom_hunter = false
-  &amp;&amp; ship_obj.invincible = false &amp;&amp; !instance_exists(power_up_obj) {
+  if (super_mushroom) &amp;&amp; (!global.mushroom_hunter)
+  &amp;&amp; (!ship_obj.invincible) &amp;&amp; (!instance_exists(power_up_obj)) {
        q = round(ceil(random(6)));
-       if (q = 1) {
-            instance_create(x,y,power_up_obj)
+       if (q == 1) {
+            instance_create(x,y,power_up_obj);
        }
   }
 
   //This special grasshopper game may or may not be added
-  if (global.ghgame = 5) { //if grasshopper game is happening
-    if (super_mushroom = false) then {grasshopper_obj.get_mushroom += 1;} //destroy
-    if (super_mushroom = true) then {grasshopper_obj.get_mushroom += 10;} //add points
+  if (global.ghgame == 5) { //if grasshopper game is happening
+    if (super_mushroom == false) then {grasshopper_obj.get_mushroom += 1;} //destroy
+    if (super_mushroom == true) then {grasshopper_obj.get_mushroom += 10;} //add points
   }
 
-  if (global.demo = false) then {score += 1;} //increase score by 1 during game play
+  if (!global.demo) then {score += 1;} //increase score by 1 during game play
   instance_destroy(); //destroy self
 
 }
@@ -132,9 +134,9 @@ if (life &lt; 1) { //if hit-points become depleted
 /////////////////////////////////////////////////////////////////////////////
 ///MUSHROOM HEALING during global.game_mode = 3//////////////////////////////
 /////////////////////////////////////////////////////////////////////////////
-if (global.game_mode = 3) { //when mushrooms are being healed, create an object to                       //indicate the need to be healed
-  if (life &lt; 4) or (super_mushroom = true) {
-    instance_create(x,y,need_heal_obj)
+if (global.game_mode = gameMode.mush) { //when mushrooms are being healed, create an object to                       //indicate the need to be healed
+  if (life &lt; 4) or (super_mushroom) {
+    instance_create(x,y,need_heal_obj);
   }
 }
 

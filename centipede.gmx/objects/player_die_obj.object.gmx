@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>anim = 0
+            <string>anim = 0;
 image_index = (global.level-1)*8 + anim;
 </string>
           </argument>
@@ -50,7 +50,7 @@ image_index = (global.level-1)*8 + anim;
           <argument>
             <kind>1</kind>
             <string>anim+=.5;
-if anim &gt;= 8 then instance_destroy();
+if (anim &gt;= 8) then instance_destroy();
 image_index = (global.level-1)*8 + anim;
 </string>
           </argument>
