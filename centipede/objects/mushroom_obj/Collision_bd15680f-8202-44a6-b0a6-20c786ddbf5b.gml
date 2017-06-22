@@ -1,0 +1,1 @@
+mush_coll_mushroom_repair_obj_script();

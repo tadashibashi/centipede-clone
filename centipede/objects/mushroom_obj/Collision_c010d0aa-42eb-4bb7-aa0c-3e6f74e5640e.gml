@@ -1,0 +1,1 @@
+mush_coll_laser_script();

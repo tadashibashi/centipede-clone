@@ -1,0 +1,1 @@
+mush_draw_sprite_script();

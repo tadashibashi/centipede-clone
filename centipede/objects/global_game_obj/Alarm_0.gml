@@ -1,0 +1,2 @@
+points_show = false;
+

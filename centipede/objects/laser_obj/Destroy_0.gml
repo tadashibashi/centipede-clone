@@ -1,0 +1,2 @@
+ global.pizza = 0
+

@@ -1,0 +1,1 @@
+gmwPostEvent(global.EV_fleaDrop_stop,sound_controller.id);

@@ -1,0 +1,26 @@
+Event	ID	Name			Wwise Object Path	Notes
+	55863436	EV_extraLife_stop			\Default Work Unit\EV_extraLife_stop	
+	292675580	EV_fleaDrop			\Default Work Unit\EV_fleaDrop	
+	292934058	EV_playerDie			\Default Work Unit\EV_playerDie	
+	628468712	EV_spider			\Default Work Unit\EV_spider	
+	835522617	EV_shipFire			\Default Work Unit\EV_shipFire	
+	1172462585	EV_extraLife			\Default Work Unit\EV_extraLife	
+	1633173353	EV_stopAllSound			\Default Work Unit\EV_stopAllSound	
+	1681071047	EV_spider_stop			\Default Work Unit\EV_spider_stop	
+	2272056649	EV_enemyDie			\Default Work Unit\EV_enemyDie	
+	3274175883	EV_fleaDrop_stop			\Default Work Unit\EV_fleaDrop_stop	
+	3310307557	EV_bgBloop_stop			\Default Work Unit\EV_bgBloop_stop	
+	3365492598	EV_bgBloop			\Default Work Unit\EV_bgBloop	
+	3905478543	EV_gecko_stop			\Default Work Unit\EV_gecko_stop	
+	4106074528	EV_gecko			\Default Work Unit\EV_gecko	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	7253979	enemy_die_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\enemy_die_snd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 2\enemy_die_snd		26688
+	193190369	ship_fire_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\ship_fire_snd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\ship_fire_snd		32832
+	200772104	player_die_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\player_die_snd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 2\player_die\player_die_snd		184384
+	321350025	gecko_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\gecko_snd_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 2\gecko_snd		108608
+	496152902	flea_drop_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\flea_drop_snd_9E69E797.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 2\flea_drop_snd		309312
+	603559846	spider_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\spider_snd_E9CD7BF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 2\spider_snd		133248
+	694101113	extra_life_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\extra_life_snd_DD9AA5CC.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 1\extra_life_snd		335012
+	782904564	background_bloop_snd	C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Mac\SFX\background_bloop_snd_A8635ED2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Priority 3\background_bloop_snd		190592
+

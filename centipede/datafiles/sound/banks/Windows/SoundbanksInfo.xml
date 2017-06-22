@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="120">
+	<RootPaths>
+		<ProjectRoot>C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\Aaron Ishibashi\Documents\GameMakerStudio2\centipede\datafiles\sound\banks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\Aaron Ishibashi\Documents\WwiseProjects\Centipede_WWiseProj\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="1661994096" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\SoundBank</ObjectPath>
+			<ShortName>SoundBank</ShortName>
+			<Path>SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="3365492598" Name="EV_bgBloop" ObjectPath="\Events\Default Work Unit\EV_bgBloop"/>
+				<Event Id="3310307557" Name="EV_bgBloop_stop" ObjectPath="\Events\Default Work Unit\EV_bgBloop_stop"/>
+				<Event Id="2272056649" Name="EV_enemyDie" ObjectPath="\Events\Default Work Unit\EV_enemyDie"/>
+				<Event Id="1172462585" Name="EV_extraLife" ObjectPath="\Events\Default Work Unit\EV_extraLife"/>
+				<Event Id="55863436" Name="EV_extraLife_stop" ObjectPath="\Events\Default Work Unit\EV_extraLife_stop"/>
+				<Event Id="292675580" Name="EV_fleaDrop" ObjectPath="\Events\Default Work Unit\EV_fleaDrop"/>
+				<Event Id="3274175883" Name="EV_fleaDrop_stop" ObjectPath="\Events\Default Work Unit\EV_fleaDrop_stop"/>
+				<Event Id="4106074528" Name="EV_gecko" ObjectPath="\Events\Default Work Unit\EV_gecko"/>
+				<Event Id="3905478543" Name="EV_gecko_stop" ObjectPath="\Events\Default Work Unit\EV_gecko_stop"/>
+				<Event Id="292934058" Name="EV_playerDie" ObjectPath="\Events\Default Work Unit\EV_playerDie"/>
+				<Event Id="835522617" Name="EV_shipFire" ObjectPath="\Events\Default Work Unit\EV_shipFire"/>
+				<Event Id="628468712" Name="EV_spider" ObjectPath="\Events\Default Work Unit\EV_spider"/>
+				<Event Id="1681071047" Name="EV_spider_stop" ObjectPath="\Events\Default Work Unit\EV_spider_stop"/>
+				<Event Id="1633173353" Name="EV_stopAllSound" ObjectPath="\Events\Default Work Unit\EV_stopAllSound"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="7253979" Language="SFX">
+					<ShortName>enemy_die_snd.wav</ShortName>
+					<Path>SFX\enemy_die_snd_9E69E797.wem</Path>
+				</File>
+				<File Id="193190369" Language="SFX">
+					<ShortName>ship_fire_snd.wav</ShortName>
+					<Path>SFX\ship_fire_snd_9E69E797.wem</Path>
+				</File>
+				<File Id="200772104" Language="SFX">
+					<ShortName>player_die_snd.wav</ShortName>
+					<Path>SFX\player_die_snd_9E69E797.wem</Path>
+				</File>
+				<File Id="321350025" Language="SFX">
+					<ShortName>gecko_snd.wav</ShortName>
+					<Path>SFX\gecko_snd_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="496152902" Language="SFX">
+					<ShortName>flea_drop_snd.wav</ShortName>
+					<Path>SFX\flea_drop_snd_9E69E797.wem</Path>
+				</File>
+				<File Id="603559846" Language="SFX">
+					<ShortName>spider_snd.wav</ShortName>
+					<Path>SFX\spider_snd_E9CD7BF0.wem</Path>
+				</File>
+				<File Id="694101113" Language="SFX">
+					<ShortName>extra_life_snd.wav</ShortName>
+					<Path>SFX\extra_life_snd_DD9AA5CC.wem</Path>
+				</File>
+				<File Id="782904564" Language="SFX">
+					<ShortName>background_bloop_snd.wav</ShortName>
+					<Path>SFX\background_bloop_snd_A8635ED2.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,34 @@
+Converting GML script : ${project_dir}\scripts\ggo_create_instances_script\ggo_create_instances_script.gml
+Converted description : /// @description /Global Game Object INSTANCE CREATION SCRIPT/////////
+
+Converting GML script : ${project_dir}\scripts\ggo_step_enemy_spawn_script\ggo_step_enemy_spawn_script.gml
+Converted description : /// @description //////////////////////////////////////////////////////////////////////////
+
+Converting GML script : ${project_dir}\scripts\ggo_step_extra_life_script\ggo_step_extra_life_script.gml
+Converted description : /// @description ////EARN EXTRA LIFE////////////////////////////////////////////////////
+
+Font font_main has been converted to font family Arcadepix Plus (Regular). Font has been regenerated, small inconsistencies may occur.
+Converting GML script : ${project_dir}\objects\spider_obj\Step_0.gml
+Converted description : /// @description SPIDER ANIMATION
+
+Converting GML script : ${project_dir}\scripts\ship_step_movement_script\ship_step_movement_script.gml
+Converted description : /// @description ///////////////////////////////////////////////////////////
+
+Converting GML script : ${project_dir}\scripts\ggo_step_start_game_script\ggo_step_start_game_script.gml
+Converted description : /// @description /////PRESS SPACE TO START THE GAME/////////////////////////////
+
+game speed set to 30
+added compatibility script action/action_if_variable.gml
+added compatibility script action/action_kill_object.gml
+added compatibility script action/action_move.gml
+added compatibility script instance/instance_create.gml
+added compatibility script object/object_get_depth.gml
+added compatibility script sound/sound_isplaying.gml
+added compatibility script sound/sound_loop.gml
+added compatibility script sound/sound_play.gml
+added compatibility script sound/sound_stop.gml
+added compatibility script sound/sound_stop_all.gml
+added compatibility script sound/sound_volume.gml
+added compatibility script action/__init_action.gml
+added compatibility script __init_global.gml
+added compatibility script __global_object_depths.gml
