@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" SchemaVersion="75">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="EV_bgBloop" ID="{3C22968B-D5BC-4F54-8B52-C05804D39A6F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{740FAB33-C25B-429C-A5A8-837D123ADA5D}" ShortID="1024219366" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{255A331E-CE78-4E75-956C-EEC846675A48}" Global="false">
+									<ObjectRef Name="background_bloop_snd" ID="{212425DC-6254-43F1-9CCF-28F5FC4BF29D}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_enemyDie" ID="{6B94287D-D3D3-4A1F-9052-D123F16254C7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E36E3CE7-54F2-4839-BD93-797F1FC1A9AD}" ShortID="233880465" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{B327A452-6C43-4925-8AC0-0213D23D451F}" Global="false">
+									<ObjectRef Name="enemy_die_snd" ID="{AF1D14C3-F0C3-4CDA-A665-A5A218E9C7EF}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_extraLife" ID="{AFA06BDD-9031-4981-85C7-1E310C9E0D9F}">
+					<ChildrenList>
+						<Action Name="Play" ID="{B7CF712F-A96A-4112-B50F-EA73E05A8992}" ShortID="314568678" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{85874B94-33C5-443C-848D-F59E20EB856D}" Global="false">
+									<ObjectRef Name="extra_life_snd" ID="{73699926-C4CE-4B3D-B8E1-0478E66A46DA}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_fleaDrop" ID="{3387383A-2E07-4E7F-854F-4089D889B24E}">
+					<ChildrenList>
+						<Action Name="Play" ID="{8F47618B-5D81-4FB1-88D1-BF9137C6C7E9}" ShortID="939536613" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4350D5F4-78CC-4AED-85CA-923A1F05AAB3}" Global="false">
+									<ObjectRef Name="flea_drop_snd" ID="{5D4B4302-9206-4707-B4A5-54BBA491F558}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_gecko" ID="{BB505C83-1B48-457F-BE9A-724CE4F3CEEA}">
+					<ChildrenList>
+						<Action Name="Play" ID="{6FA00577-6007-4618-8FD1-EB5C5CF2AEDD}" ShortID="720617708" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{EE36C0C1-7167-462C-9EE5-E9F54DE3B7C0}" Global="false">
+									<ObjectRef Name="gecko_snd" ID="{CD6BBFF9-72DB-4A20-923E-7E28989D4696}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_playerDie" ID="{EA9686A6-E315-4E7C-A528-AC9708EC3CDF}">
+					<ChildrenList>
+						<Action Name="Play" ID="{017D5968-FBE5-478D-BE13-9579457A3044}" ShortID="568196653" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{05D6FD2A-F2B8-4C19-98B3-36B73B5CC804}" Global="false">
+									<ObjectRef Name="player_die_snd" ID="{84F3E8DB-8A1A-462C-A6C0-B780105322D9}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_gecko_stop" ID="{5EB6A4EA-2C1F-4645-8BC1-CC5B5981CE11}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{135DA64B-1296-4025-AF04-477CCC1C4878}" ShortID="102585539" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{FECB25C5-CD54-4D7B-887E-CADA46EE96BE}" Global="false">
+									<ObjectRef Name="gecko_snd" ID="{CD6BBFF9-72DB-4A20-923E-7E28989D4696}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_stopAllSound" ID="{92482E7B-20B0-4071-AF44-15553D751869}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{DA25844E-B240-44E4-AF1A-267E4144FE94}" ShortID="1061962213" Type="Stop" Scope="All" Global="false"/>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_bgBloop_stop" ID="{456D7247-B790-4DE8-B71F-F201108ABE6B}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5C8637D8-FE73-4DBE-AF6F-645B366D148A}" ShortID="698436019" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{ED1E066D-1CF6-4D00-8E1F-181756401B52}" Global="false">
+									<ObjectRef Name="background_bloop_snd" ID="{212425DC-6254-43F1-9CCF-28F5FC4BF29D}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_extraLife_stop" ID="{5C6F8365-DBB6-40FD-9727-C15B5D4033A8}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{21061D18-0626-4A94-9570-CF765922A466}" ShortID="1013827351" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{65761C29-E19E-44F0-8E95-C129DBBBDAF9}" Global="false">
+									<ObjectRef Name="extra_life_snd" ID="{73699926-C4CE-4B3D-B8E1-0478E66A46DA}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_fleaDrop_stop" ID="{341F066F-F010-45CE-AE2D-94FFCB8762CD}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{C1424AEE-B54E-4591-BE5C-D220457D1E82}" ShortID="478148523" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{96D70DA2-627F-45B2-9FBA-4308FB4D9A3E}" Global="false">
+									<ObjectRef Name="flea_drop_snd" ID="{5D4B4302-9206-4707-B4A5-54BBA491F558}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_spider" ID="{A18A0032-7F39-42D4-B971-B1EBC92837C2}">
+					<ChildrenList>
+						<Action Name="Play" ID="{5A54FD6C-229A-484C-AA98-8905C9E35457}" ShortID="43796190" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{D09F9F11-0048-4D0D-ACF1-E905C43FDC03}" Global="false">
+									<ObjectRef Name="spider_snd" ID="{BEB81C53-D986-45A9-BD97-38C9677F998C}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_spider_stop" ID="{487FE19B-3BA0-4E30-8BED-422B2C0F40AA}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{1A2114D6-905E-46D4-B24C-FE1D6F2C4E1D}" ShortID="696071587" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{BF089743-F6D1-4893-A712-8DBB5B4B0F77}" Global="false">
+									<ObjectRef Name="spider_snd" ID="{BEB81C53-D986-45A9-BD97-38C9677F998C}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EV_shipFire" ID="{BDA5B32A-09AA-4B8A-BD16-84A5EC2929AD}">
+					<ChildrenList>
+						<Action Name="Play" ID="{36D53EF9-ABBF-426E-89B9-27DB2D22DC85}" ShortID="1043302582" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{1BA532FC-91F6-43B5-B1B8-EAC89033F531}" Global="false">
+									<ObjectRef Name="ship_fire_snd" ID="{2972C26E-31A7-476E-B15E-EB5B9AB2D5B5}" WorkUnitID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

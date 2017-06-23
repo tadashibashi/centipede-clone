@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}" SchemaVersion="75">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{A63130E9-E2E3-4E0E-8E9C-A59D11A0DB41}" PersistMode="Standalone">
+			<ChildrenList>
+				<ActorMixer Name="Priority 1" ID="{6656F944-6750-4741-9DDE-B79B179B77A5}" ShortID="472482685">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Priority 1" ID="{D1ED2E58-4C4D-4981-9241-402F5BDD4092}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="extra_life_snd" ID="{73699926-C4CE-4B3D-B8E1-0478E66A46DA}" ShortID="388542098" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="extra_life_snd" ID="{38063878-426D-4FAD-B1FB-0923CA282541}" ShortID="694101113">
+									<PropertyList>
+										<Property Name="FadeOutDuration" Type="Real64" Value="2.64334305150631E-02"/>
+										<Property Name="LoopBegin" Type="Real64" Value="1.76222870100421E-02"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="1.89880142533204"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>extra_life_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="extra_life_snd" ID="{38063878-426D-4FAD-B1FB-0923CA282541}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Priority 2" ID="{94CB7367-117F-42A2-BEC1-BF0F9956B701}" ShortID="638264992">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Priority 2" ID="{A30149F4-258B-4318-B9A5-A44C45A82118}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="gecko_snd" ID="{CD6BBFF9-72DB-4A20-923E-7E28989D4696}" ShortID="47596286" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="gecko_snd" ID="{ADAE5652-49DF-4305-A35B-0783D6454EDB}" ShortID="321350025">
+									<Language>SFX</Language>
+									<AudioFile>gecko_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="gecko_snd" ID="{ADAE5652-49DF-4305-A35B-0783D6454EDB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="spider_snd" ID="{BEB81C53-D986-45A9-BD97-38C9677F998C}" ShortID="738517996" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="spider_snd" ID="{A89A4703-4074-494A-BBBF-0DECC1481257}" ShortID="603559846">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="1.68448331713638E-02"/>
+										<Property Name="LoopEnd" Type="Real64" Value="0.751279559442825"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>spider_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="spider_snd" ID="{A89A4703-4074-494A-BBBF-0DECC1481257}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="flea_drop_snd" ID="{5D4B4302-9206-4707-B4A5-54BBA491F558}" ShortID="137410561" Type="SoundFX">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="flea_drop_snd" ID="{4C951CCA-1EEA-4F38-9648-2D43B37D9083}" ShortID="496152902">
+									<Language>SFX</Language>
+									<AudioFile>flea_drop_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="flea_drop_snd" ID="{4C951CCA-1EEA-4F38-9648-2D43B37D9083}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="enemy_die_snd" ID="{AF1D14C3-F0C3-4CDA-A665-A5A218E9C7EF}" ShortID="141858690" Type="SoundFX">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Priority 3" ID="{DCBC394D-3AA2-481D-9C0B-62B58861E129}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="enemy_die_snd" ID="{B0A577EF-4D99-48EE-A89D-6CE64FB54146}" ShortID="7253979">
+									<Language>SFX</Language>
+									<AudioFile>enemy_die_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="enemy_die_snd" ID="{B0A577EF-4D99-48EE-A89D-6CE64FB54146}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<RandomSequenceContainer Name="player_die" ID="{F88EDB64-B7A4-4E1A-97EE-E3B0F6F1FBA0}" ShortID="181205026">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Priority 1" ID="{D1ED2E58-4C4D-4981-9241-402F5BDD4092}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="player_die_snd" ID="{84F3E8DB-8A1A-462C-A6C0-B780105322D9}" ShortID="240533851" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Priority 1" ID="{D1ED2E58-4C4D-4981-9241-402F5BDD4092}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_die_snd" ID="{554BB392-B9F3-4400-990D-1DBE6C01516C}" ShortID="200772104">
+											<Language>SFX</Language>
+											<AudioFile>player_die_snd.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_die_snd" ID="{554BB392-B9F3-4400-990D-1DBE6C01516C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="player_die2_snd" ID="{1EB2C4E3-A3E1-49B9-870A-30546D4EF5BE}" ShortID="305227250" Type="SoundFX">
+									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>21</Value>
+											</ValueList>
+										</Property>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Priority 1" ID="{D1ED2E58-4C4D-4981-9241-402F5BDD4092}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="player_die2_snd" ID="{C412DC91-2995-4392-85D3-2E943FAB740F}" ShortID="806020780">
+											<Language>SFX</Language>
+											<AudioFile>player_die2_snd.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="player_die2_snd" ID="{C412DC91-2995-4392-85D3-2E943FAB740F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+				<ActorMixer Name="Priority 3" ID="{CAAD9756-F088-4DCE-BAF5-C3A5B0E070F6}" ShortID="723739755">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Priority 3" ID="{DCBC394D-3AA2-481D-9C0B-62B58861E129}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="background_bloop_snd" ID="{212425DC-6254-43F1-9CCF-28F5FC4BF29D}" ShortID="181786028" Type="SoundFX">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="background_bloop_snd" ID="{C90C790D-214A-422F-9E4E-F960366A7E8C}" ShortID="782904564">
+									<PropertyList>
+										<Property Name="LoopEnd" Type="Real64" Value="1.06767735665695"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>background_bloop_snd.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="background_bloop_snd" ID="{C90C790D-214A-422F-9E4E-F960366A7E8C}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</ActorMixer>
+				<Sound Name="ship_fire_snd" ID="{2972C26E-31A7-476E-B15E-EB5B9AB2D5B5}" ShortID="172842721" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>25</Value>
+							</ValueList>
+						</Property>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{063876A0-3A17-4946-8C6D-B8F9C50171ED}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="328"/>
+											<Property Name="Min" Type="Real64" Value="-76"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{1FFD803B-B2C0-4DFD-B681-89B27B30E350}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ship_fire_snd" ID="{9F6BFF9F-1B2C-4230-BA17-1233FD7F4C8D}" ShortID="193190369">
+							<Language>SFX</Language>
+							<AudioFile>ship_fire_snd.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ship_fire_snd" ID="{9F6BFF9F-1B2C-4230-BA17-1233FD7F4C8D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

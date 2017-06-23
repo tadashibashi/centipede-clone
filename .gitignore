@@ -1,3 +1,7 @@
-#Ignore Wwise Project Folder
-Centipede_WWiseProj/
+#Ignore WWise Temp Files
+Centipede_WWiseProj/.cache/
+*.validationcache
+*.prof
+
+#Ignore Builds folder
 builds/

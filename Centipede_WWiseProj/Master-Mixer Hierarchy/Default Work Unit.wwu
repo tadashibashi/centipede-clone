@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}" SchemaVersion="75">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{C81DE5ED-6CE8-423A-803F-FB81DCE57457}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{0CFB61D5-3A56-4544-834D-2D4D34387ABD}" ShortID="80294335">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="RTPC_globalVolume" ID="{F012723A-2ABC-437E-8F5A-19D1CEF7BAF5}" WorkUnitID="{730F6978-62A6-46D3-BD26-4CB764FB9B06}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{977D0975-1CF1-4AB1-B2FF-7B30F649D178}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+											</Point>
+											<Point>
+												<XPos>100</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
+					<ChildrenList>
+						<Bus Name="Priority 1" ID="{D1ED2E58-4C4D-4981-9241-402F5BDD4092}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Priority 2" ID="{A30149F4-258B-4318-B9A5-A44C45A82118}"/>
+									<DuckingParam>
+										<Volume>-96</Volume>
+										<FadeInTime>0</FadeInTime>
+										<FadeOutTime>0</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="Priority 3" ID="{DCBC394D-3AA2-481D-9C0B-62B58861E129}"/>
+									<DuckingParam>
+										<Volume>-96</Volume>
+										<FadeInTime>0</FadeInTime>
+										<FadeOutTime>0</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Priority 2" ID="{A30149F4-258B-4318-B9A5-A44C45A82118}">
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Priority 3" ID="{DCBC394D-3AA2-481D-9C0B-62B58861E129}"/>
+									<DuckingParam>
+										<Volume>-3</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLinear</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
+						</Bus>
+						<Bus Name="Priority 3" ID="{DCBC394D-3AA2-481D-9C0B-62B58861E129}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Master Secondary Bus" ID="{D2E0BC7E-7B3F-4FFE-A670-FAE02761B631}"/>
+				<MotionBus Name="Master Motion Bus" ID="{20A630BA-3398-4676-B927-1004DFE41FD8}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

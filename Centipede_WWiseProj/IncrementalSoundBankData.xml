@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<IncrementalBankBuild Version="6" Flags="601859981">
+	<Platform GUID="{8D54E696-682A-48CD-B226-59B545EEF39B}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="493458856" Timestamp="131426069863617168"/>
+				<File Name="SoundBank" Hash="1023491054" Timestamp="131426071614924430"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3531888698" Timestamp="131426071615059460"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+	<Platform GUID="{B52C7792-E58E-4BCA-AD04-EC3E00996AA3}">
+		<Banks>
+			<Language ID="0">
+				<File Name="Init" Hash="1936658034" Timestamp="131426069862347042"/>
+				<File Name="SoundBank" Hash="1023491054" Timestamp="131426071613554288"/>
+			</Language>
+		</Banks>
+		<XMLInfo>
+			<Language ID="-1">
+				<File Name="" Hash="3746881948" Timestamp="131426071613819331"/>
+			</Language>
+		</XMLInfo>
+	</Platform>
+</IncrementalBankBuild>

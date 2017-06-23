@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8D44D468-8FC5-4C58-ACD7-5D9C4EE3CFBB}" SchemaVersion="75">
+	<SoundBanks>
+		<WorkUnit Name="Default Work Unit" ID="{8D44D468-8FC5-4C58-ACD7-5D9C4EE3CFBB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundBank Name="SoundBank" ID="{154F8E89-FECB-4AA2-8D3E-63AA29CD8C14}">
+					<ObjectInclusionList>
+						<ObjectRef Name="EV_stopAllSound" ID="{92482E7B-20B0-4071-AF44-15553D751869}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_extraLife_stop" ID="{5C6F8365-DBB6-40FD-9727-C15B5D4033A8}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_spider" ID="{A18A0032-7F39-42D4-B971-B1EBC92837C2}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_gecko" ID="{BB505C83-1B48-457F-BE9A-724CE4F3CEEA}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_fleaDrop_stop" ID="{341F066F-F010-45CE-AE2D-94FFCB8762CD}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_gecko_stop" ID="{5EB6A4EA-2C1F-4645-8BC1-CC5B5981CE11}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_extraLife" ID="{AFA06BDD-9031-4981-85C7-1E310C9E0D9F}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_enemyDie" ID="{6B94287D-D3D3-4A1F-9052-D123F16254C7}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_shipFire" ID="{BDA5B32A-09AA-4B8A-BD16-84A5EC2929AD}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_bgBloop_stop" ID="{456D7247-B790-4DE8-B71F-F201108ABE6B}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_spider_stop" ID="{487FE19B-3BA0-4E30-8BED-422B2C0F40AA}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_playerDie" ID="{EA9686A6-E315-4E7C-A528-AC9708EC3CDF}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_fleaDrop" ID="{3387383A-2E07-4E7F-854F-4089D889B24E}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="EV_bgBloop" ID="{3C22968B-D5BC-4F54-8B52-C05804D39A6F}" WorkUnitID="{2271B280-8363-47DF-A533-1EC762DEF7BD}" Filter="7" Origin="Manual"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
