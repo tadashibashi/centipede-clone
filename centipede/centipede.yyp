@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "75ac291e-7061-4bcb-8e8a-3b3545332d41",
+            "Value": {
+                "id": "2014cc66-6ff6-4cba-b1f8-9f0e2a6c11af",
+                "resourcePath": "options\\html5\\options_html5.yy",
+                "resourceType": "GMHtml5Options"
+            }
+        },
+        {
             "Key": "77e6364e-1d8e-4085-bff9-9e5ea6c6e2be",
             "Value": {
                 "id": "9ad66e2e-abf8-464c-a0e0-29fb444001b2",
@@ -884,6 +892,14 @@
                 "id": "7a23259d-0dbf-4f97-bac6-52ffcc0f1b3e",
                 "resourcePath": "views\\a827edbe-70dd-43df-b929-9bc9a1e5c128.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a9188620-a624-4a5a-83ae-a1b53faf038b",
+            "Value": {
+                "id": "08f9a4f4-86e2-4141-b5cb-f510fb1ccd2f",
+                "resourcePath": "options\\linux\\options_linux.yy",
+                "resourceType": "GMLinuxOptions"
             }
         },
         {
@@ -1300,6 +1316,14 @@
                 "id": "d5a380f3-ca3a-4650-990b-4168a5f6d9d7",
                 "resourcePath": "scripts\\cent_step_all_stop_script\\cent_step_all_stop_script.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
+            "Value": {
+                "id": "512c026c-cb1e-4533-b448-c9e7708a51fd",
+                "resourcePath": "options\\mac\\options_mac.yy",
+                "resourceType": "GMMacOptions"
             }
         },
         {
