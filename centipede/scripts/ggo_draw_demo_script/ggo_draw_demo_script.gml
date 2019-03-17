@@ -24,8 +24,11 @@ if (global.game_mode = 0) or (global.demo)  {
     draw_text(17*8,8*10,string_hash_to_newline(highscore_name(7)));
     draw_text(17*8,8*11,string_hash_to_newline(highscore_name(8)));
         //c. Draw Atari Copyright
-    draw_text(8*10,8*31,string_hash_to_newline(" 1980 ATARI"))
+    draw_text(8*10,8*31,string_hash_to_newline(" 1980 ATARI"));
     draw_sprite(copyright_spr,global.level-1,8*10,8*31);
+		// Audio Powered by Wwise Text
+	draw_text(8*7, 8*29, "AUDIO POWERED BY"); 
+	draw_text(8*6, 8*30, "AUDIOKINETIC WWISE");
     
         //d. Draw Other Text
     draw_text(8*10,8*14,string_hash_to_newline("CREDITS 2"));
