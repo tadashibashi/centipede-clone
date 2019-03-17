@@ -2,8 +2,10 @@
 ////////////////////////////////////////////////////////////////////////////////
 
 //Keep the Centipede within room boundaries
-if (x > room_width-4) then {x = room_width-4};
-if (x < 0) then {x = 0};
+var _max_x = room_width - 4;
+var _max_y = 240 
+x = clamp(x, 0, _max_x);
+
 if (y > 240) then {y = 240};
 
 //Keep the Centipede aligned on Grid
